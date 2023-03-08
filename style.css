@@ -1,0 +1,39 @@
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(230, 139, 139);
+}
+
+/* .............................Navigation bar..................... */
+ul li a:hover {
+  background-color: rgb(179, 6, 64);
+}
+ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: aqua;
+  line-height: 30px;
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.9;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul li a:hover {
+  background-color: #de1fcb;
+}
+ul li ul li {
+  display: none;
+}
+ul li:hover ul li {
+  display: block;
+  text-decoration: underline;
+}
